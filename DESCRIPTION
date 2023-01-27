@@ -1,0 +1,24 @@
+Package: bees
+Title: Helper R Functions to Banestes
+Version: 0.0.0.9005
+Authors@R: 
+    person("Alberson", "Miranda", , "albersonmiranda@banestes.com.br", role = c("aut", "cre"))
+Description: Offers R functions to automate day-to-day in company tasks
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+URL: https://github.com/albersonmiranda/bees
+BugReports: https://github.com/albersonmiranda/bees/issues
+Imports: 
+    cli,
+    DBI,
+    dplyr,
+    duckdb,
+    janitor,
+    readr,
+    readxl,
+    vroom,
+    data.table,
+    tibble,
+    xml2
